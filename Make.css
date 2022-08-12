@@ -36,5 +36,10 @@ button {
 }
 
 textarea {
-  
+  margin-top: 30px;
+  margin-left: 55px;
+  width: 1800px;
+  height: 500px;
+  border: none;
+  resize: none;
 }

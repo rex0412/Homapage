@@ -17,6 +17,9 @@ hr {
 input {
   margin-top: 30px;
   margin-left: 55px;
+  background-color: #253140;
+  border: 2px dashed white;
+  color: white;
   width: 1800px;
   height: 50px;
 }
@@ -33,13 +36,31 @@ div {
 
 button {
   height: 35px;
+  background-color: #369C55;
+  color: white;
+  border: 0px;
 }
 
 textarea {
+  background-color: #253140;
+  border: 1px solid white;
+  color: white;
   margin-top: 30px;
   margin-left: 55px;
   width: 1800px;
   height: 500px;
-  border: none;
   resize: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.save {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 150px;
+  height: 50px;
+  font-size: 1em;
 }

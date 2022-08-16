@@ -5,9 +5,6 @@
 
 body {
   background-color: #253140;
-  position: relative;
-  left: 50%; 
-  transform: translateX(-50%);
 }
 
 hr {
@@ -59,11 +56,19 @@ textarea:focus {
   outline: none;
 }
 
+section {
+  position: relative;
+}
+
 .save {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 1725px;
   width: 150px;
   height: 50px;
   font-size: 1em;
+}
+
+button:hover {
+  background-color: #23783d;
 }

@@ -72,3 +72,54 @@ section {
 button:hover {
   background-color: #23783d;
 }
+
+.textColor {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.textBackgroundColor {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+.textSize {
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+
+.backgroundColor {
+  grid-row: 1/2;
+  grid-column: 4/5;
+}
+
+.textFont {
+  grid-row: 1/2;
+  grid-column: 5/6;
+}
+
+
+.img {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.strikethrough {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.sort {
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+
+.underscore {
+  grid-row: 2/3;
+  grid-column: 4/5;
+}
+
+.bullets {
+  grid-row: 2/3;
+  grid-column: 5/6;
+}

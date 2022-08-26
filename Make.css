@@ -1,8 +1,10 @@
+/* 전체 */
 * {
     box-sizing: border-box;
     margin: 0;
   }
 
+  /* 화면 Grid 방식 */
 body {
   background-color: #253140;
   display: grid;
@@ -11,21 +13,24 @@ body {
   grid-template-rows: repeat(60px, 80px, 500px, 40px);
 }
 
+/* 게시글 제목 작성 부분 */
 header {
   grid-row: 1/2;
   grid-column: 1/2;
 }
-
+/* 버튼 모여있는 부분 */
 nav {
   grid-row: 2/3;
   grid-column: 1/2;
 }
 
+/* 내용 작성칸 */
 section {
   grid-row: 3/4;
   grid-column: 1/2;
 }
 
+/* 게시판 작성 버튼 부분 */
 footer {
   grid-row: 4/5;
   grid-column: 1/2;
@@ -37,6 +42,7 @@ hr {
   width: 1800px;
 }
 
+/* 게시글 제목 작성 부분 */
 input {
   margin-top: 30px;
   background-color: #253140;

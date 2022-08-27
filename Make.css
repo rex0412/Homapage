@@ -150,32 +150,23 @@ button:hover {
 
 /*모바일 화면 버전(모바일 가로, 모바일 세로 (해상도: ~ 768px))*/
 @media all and (max-width:768px) {
-  body {
-    display: block;
-  }
 
   input {
-  width: 883px;
-  margin-left: 23px;
+  width: 880px;
   }
 
   hr {
-    width: 882px;
-    margin-left: 23px
+    width: 880px;
   }
 
   div {
-    width: 1109px;
-    margin-left: 23px
+    width: 880px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 
   textarea {
-    width: 882px;
-    margin-left: 23px
-  }
-
-  .save {
-    margin-left: 755px;
+    width: 880px;
   }
 
   .textColor {

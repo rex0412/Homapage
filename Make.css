@@ -153,26 +153,26 @@ button:hover {
 @media all and (max-width:768px) {  
 
  input {
-  width: 750px;
+  width: 700px;
   }
 
   hr {
-    width: 750px;
+    width: 700px;
   }
 
   div {
-    width: 750px;
+    width: 700px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
 
   textarea {
-    width: 750px;
+    width: 700px;
   }
 
   .save {
     margin-top: 20px;
-    margin-left: 600px;
+    margin-left: 550px;
   }
 
   .textColor {

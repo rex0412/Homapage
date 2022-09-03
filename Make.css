@@ -62,6 +62,7 @@ div {
   gap: 10px;
 }
 
+/* 전체 버튼 디자인 */
 button {
   height: 35px;
   background-color: #369C55;
@@ -149,33 +150,29 @@ button:hover {
 }
 
 /*모바일 화면 버전(모바일 가로, 모바일 세로 (해상도: ~ 768px))*/
-@media all and (max-width:768px) {
-  body {
-    display: block;
-  }
+@media all and (max-width:768px) {  
 
-  input {
-  width: 883px;
-  margin-left: 23px;
+ input {
+  width: 750px;
   }
 
   hr {
-    width: 882px;
-    margin-left: 23px
+    width: 750px;
   }
 
   div {
-    width: 1109px;
-    margin-left: 23px
+    width: 750px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 
   textarea {
-    width: 882px;
-    margin-left: 23px
+    width: 750px;
   }
 
   .save {
-    margin-left: 755px;
+    margin-top: 20px;
+    margin-left: 600px;
   }
 
   .textColor {

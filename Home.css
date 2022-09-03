@@ -2,7 +2,60 @@
     box-sizing: border-box;
     margin: 0;
   }
-
+header{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+input{
+  background-color: wheat;
+}
+button{
+  position: relative; left: 1400px;
+  background-color: #369c55;
+  color: white;
+}
 body {
     background-color: #253140;
+    color: white;
+    margin-top: 30px;
+} 
+hr{
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px; 
+background-color: yellow;
 }
+.a{
+  background-color: #226135;
+  margin-top: 30px ;
+  margin-left: 20px;
+margin-right: 20px;
+
+}
+.b{
+  background-color: #266E3C;
+  margin-top: 10px;
+  margin-left: 20px;
+margin-right: 20px;
+}
+.c{
+  background-color: #2E8549;
+  margin-top: 10px;
+  margin-left: 20px;
+margin-right: 20px;
+}
+.d{
+  background-color: #369c55;
+  margin-top: 10px;
+  margin-left: 20px;
+margin-right: 20px;
+}
+.e{
+  background-color: #42Bd68;
+  margin-top: 10px;
+  margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+

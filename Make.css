@@ -155,7 +155,11 @@ button:hover {
 /*모바일 화면 버전(모바일 가로, 모바일 세로 (해상도: ~ 768px))*/
 @media all and (max-width:768px) {  
 
+<<<<<<< Updated upstream
  input {
+=======
+  input {
+>>>>>>> Stashed changes
   width: 700px;
   }
 

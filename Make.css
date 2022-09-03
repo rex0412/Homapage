@@ -1,12 +1,8 @@
-/* ... */
 /* 전체 */
 * {
     box-sizing: border-box;
     margin: 0;
   }
-
-  /*hello*/
-  /* hi */
 
   /* 화면 Grid 방식 */
 body {
